@@ -30,6 +30,12 @@ module.exports = {
   },
 
   mocha: {
+    reporter: 'eth-gas-reporter',
+    reporterOptions: {
+      coinmarketcap: process.env.COINMARKETCAP_API_KEY,
+      currency: 'USD',
+      gasPrice: 100,
+    },
   },
 
   compilers: {

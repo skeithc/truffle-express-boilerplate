@@ -10,7 +10,8 @@ A simple boilerplate that contains a setup of truffle and express.
 - [Mongoose](https://mongoosejs.com/) - MongoDB ORM
 - [MongoDB](https://www.mongodb.com/) - Database
 - [ESLint](https://eslint.org/) - Code linting
-- [Airbnb](https://github.com/airbnb/javascript) - Code standard 
+- [Airbnb](https://github.com/airbnb/javascript) - Code standard
+- [ETH Gas Reporter](https://github.com/cgewecke/eth-gas-reporter) - Gas usage reporting
 
 ## File Structure
 - `server.js` - Express server
