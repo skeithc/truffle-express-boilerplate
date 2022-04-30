@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha",
-    "lint": "eslint . --fix --ignore-path .gitignore",
+    "lint": "eslint --cache --fix --ignore-path .gitignore",
+    "solhint": "solhint 'contracts/**/*.sol' --fix --ignore-path .gitignore",
     "prepare": "husky install"
   },
   "repository": {
@@ -46,6 +47,7 @@
     "lint-staged": "^12.4.1"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js": "npm run lint",
+    "*.sol": "npm run solhint"
   }
 }
