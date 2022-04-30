@@ -4,7 +4,8 @@
   "description": "A simple boilerplate that contains a setup of truffle and express ",
   "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint . --fix --ignore-path .gitignore"
   },
   "repository": {
     "type": "git",
