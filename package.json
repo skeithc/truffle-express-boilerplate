@@ -1,0 +1,33 @@
+{
+  "name": "truffle-express-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate that contains a setup of truffle and express ",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skeithc/truffle-express-boilerplate.git"
+  },
+  "keywords": [
+    "truffle",
+    "express",
+    "boilerplate",
+    "nft",
+    "erc721",
+    "token",
+    "cryptocurrency",
+    "ethereum",
+    "ethers"
+  ],
+  "author": "Skeith <skeith@asterialabs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skeithc/truffle-express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/skeithc/truffle-express-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
