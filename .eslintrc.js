@@ -10,6 +10,8 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
-    'import/no-extraneous-dependencies': ['error', { devDependencies: ['migrations/*', 'test/*', '**/truffle.js', '**/.eslintrc.js'] }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['migrations/*', 'test/*', '**/truffle.js', '**/truffle-config.js', '**/.eslintrc.js'] }],
   },
 };
