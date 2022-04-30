@@ -4,7 +4,8 @@
   "description": "A simple boilerplate that contains a setup of truffle and express ",
   "main": "server.js",
   "scripts": {
-    "test": "mocha",
+    "start": "nodemon server.js",
+    "test": "npx truffle test",
     "lint": "eslint --cache --fix --ignore-path .gitignore",
     "solhint": "solhint 'contracts/**/*.sol' --fix --ignore-path .gitignore",
     "prepare": "husky install"
@@ -44,7 +45,8 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "husky": "^7.0.4",
-    "lint-staged": "^12.4.1"
+    "lint-staged": "^12.4.1",
+    "nodemon": "^2.0.16"
   },
   "lint-staged": {
     "*.js": "npm run lint",
